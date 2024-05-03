@@ -23,7 +23,7 @@ Prior to my doctoral studies, I worked as a research assistant at the <a href='h
 </p>
 
 <p style="text-align:justify">
-I started my professional career as a Software Engineer at <a href='https://www.tigerit.com/'>TigerIT Bangladesh Limited</a>, where I worked as a quality assurance engineer under the Software Quality Assurance (SQA) team. I received my bachelor's degree from the Department of Computer Science and Engineering, <a href='https://www.du.ac.bd/body/CSE'>University of Dhaka.
+I started my professional career as a Software Engineer at <a href='https://www.tigerit.com/'>TigerIT Bangladesh Limited</a>, where I worked as a quality assurance engineer under the Software Quality Assurance (SQA) team. I received my bachelor's degree from the Department of Computer Science and Engineering, <a href='https://www.du.ac.bd/body/CSE'>University of Dhaka</a>.
 </p>
 
 My current research interests are:
