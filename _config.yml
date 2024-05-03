@@ -86,11 +86,11 @@ linkedin_username: amit-sarker99 # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: 0000-0001-7883-6594 # your ORCID ID
-osf_id: rft5p # your OSF ID
+osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: Amit-Sarker-2 # your profile on ResearchGate
+research_gate_profile: # your profile on ResearchGate
 scholar_userid: 3zFdajQAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
