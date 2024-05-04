@@ -1,8 +1,8 @@
 ---
 layout: post
-date: May 2023:
+date: August 2023
 inline: true
 related_posts: false
 ---
 
-Received <a href='https://www.cics.umass.edu/news/scholarship-established-honor-jim-kurose'>James Kurose Scholarship</a> in Computer Science!
+EAAI paper on <a href='https://www.sciencedirect.com/science/article/abs/pii/S0952197623004645'>A PSO Inspired Approach for Continuous DCOPs</a> accepted!
