@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: A trade-off between Privacy, Accuracy, and Fairness.
 
