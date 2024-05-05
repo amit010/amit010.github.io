@@ -32,3 +32,15 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Choudhury":
+  - firstname: [ "Moumita" ]
+    url: https://moumitachoudhury.github.io/
+
+"Khan":
+  - firstname: [ "Md Mosaddek" ]
+    url: https://mmkhansajeeb.com/
+
+"Yeoh":
+  - firstname: [ "William" ]
+    url: https://wyeoh.github.io/
