@@ -1,5 +1,8 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
+  {% if site.icon != blank %}
+    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
+  {% endif %}
   <!-- Head -->
   <head>
     {% if page.redirect %}
