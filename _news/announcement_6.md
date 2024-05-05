@@ -1,8 +1,8 @@
 ---
 layout: post
-date: January 10, 2020,
+date: 2020-04-01
 inline: true
 related_posts: false
 ---
 
-OptLearnMAS workshop paper on Continuous DCOPs accepted!
+Started working as a Software Engineer at <a href='https://www.tigerit.com/'>TigerIT Bangladesh Limited</a>.
