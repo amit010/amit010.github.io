@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: A trade-off between Privacy, Accuracy, and Fairness.
+subtitle: The website is under development.
 
 profile:
   align: right
