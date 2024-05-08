@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Improving Retrieval Accuracy Using Clustering to Personalize LLMs
+description: LLM, Huggingface, Scikit Learn, Python, Probabilistic and Neural Retrievers.
+img: assets/img/clustering-ir.pdf
 importance: 1
-category: work
+category: Graduate
 related_publications: true
 ---
 
