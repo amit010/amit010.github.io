@@ -4,7 +4,7 @@ title: Privacy Risk of ML Models
 description: NN, RNN, Adversarial Regularization, MemGuard
 img: assets/img/project2.png
 importance: 2
-category: graduate
+category: Graduate
 giscus_comments: true
 ---
 <a href="https://amit010.github.io/assets/pdf/privacy_risk_ML_Models.pdf">[Report]</a> <a href='https://github.com/amit-sarker/MIA-Evaluation'>[Code]</a>
