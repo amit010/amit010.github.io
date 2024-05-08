@@ -8,40 +8,24 @@ category: Graduate
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<strong>Project Title:</strong> Improving Retrieval Accuracy Using Clustering to Personalize Large Language Models.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<p style="text-align:justify">
+Project Overview: This project focuses on improving the personalization capabilities of Large Language Models (LLMs) by advancing the retrieval of user profile information. By using novel retrieval strategies, including clustering and reranking methods, this project aims to optimize LLM outputs to be more user-specific and contextually relevant.
+</p>
+The project focuses on the following research questions (RQs):
+<ul>
+    <li> RQ1: How can relevant information be extracted from a user profile to personalize the output of a Large Language Model (LLM)? </li>
+    <li> RQ2: How can the prompt to personalize an LLM output be optimized when the relevant user information is large? </li>
+</ul>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/clustering-ir.jpg" title="project structure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    This figure shows our clustering approach for retrieval. In our approach, we first cluster the documents using KMeans. We then sample a data point or document from a cluster. Finally, we rerank the documents using contriever.
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
