@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Improving Retrieval Accuracy Using Clustering to Personalize LLMs
+title: LLM Personalization
 description: LLM, Huggingface, Scikit Learn, Python, Probabilistic and Neural Retrievers.
 img: assets/img/clustering-ir.pdf
 importance: 1
