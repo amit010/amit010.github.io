@@ -31,7 +31,6 @@ The project focuses on the following research questions (RQs):
     This figure shows our clustering approach for retrieval. In our approach, we first cluster the documents using KMeans. We then sample a data point or document from a cluster. Finally, we rerank the documents using contriever.
 </div>
 
-
 <p style="text-align:justify"><strong>Challenges:</strong> This project addresses a suite of challenges related to enhancing the personalization capabilities of Large Language Models (LLMs) through advanced information retrieval strategies.</p>
 <ul>
     <li> <p style="text-align:justify">The core challenge is to extract relevant and significant data efficiently from voluminous and diverse user profiles. This is crucial to ensure that the LLM outputs are both contextually relevant and accurate.</p> </li>
@@ -56,7 +55,7 @@ The project focuses on the following research questions (RQs):
     </ul>
 </ol>
 
-<p style="text-align:justify"><strong>Discussion & Findings:</strong> The project’s findings offer insightful contributions to the field of personalized information retrieval for LLMs:</p>
+<p style="text-align:justify"><strong>Discussion & Findings:</strong> The project's findings offer insights to the field of personalized information retrieval for LLMs:</p>
 <ol>
     <li> <p style="text-align:justify">Effectiveness of Clustering-Based Retrieval: The clustering-based retrieval method demonstrated promising results, outperforming other techniques in terms of balancing computational efficiency with accuracy and relevance. This suggests that such methods can be particularly useful in scenarios where resources are limited but high personalization is required.</p> </li>
     <li> <p style="text-align:justify">Advantages of Reranking Models: The reranking approach using Contriever showed that it could achieve accuracy comparable to the baseline methods while potentially offering better relevance of results due to its ability to dynamically adjust to the context of the query and user profile.</p> </li>
