@@ -5,13 +5,13 @@ description: NN, RNN, Adversarial Regularization, MemGuard
 img: assets/img/project2.png
 importance: 2
 category: Graduate
-giscus_comments: true
+giscus_comments: false
 ---
 <a href="https://amit010.github.io/assets/pdf/privacy_risk_ML_Models.pdf">[Report]</a> <a href='https://github.com/amit-sarker/MIA-Evaluation'>[Code]</a>
 
 <strong>Background:</strong> I did this project for the <a href="https://people.cs.umass.edu/~amir/courses/CS660-FALL22/">COMPSCI 660: Advanced Information Assurance – Fall'22</a> course at UMass along with <a href="https://mashrur29.github.io/">Mashrur Rashik</a> and Erfan Entezami. All authors contributed equally in this project.
 
-<strong>Project Title:</strong> Improving Retrieval Accuracy Using Clustering to Personalize Large Language Models.
+<strong>Project Title:</strong> The Effectiveness of NN-based Defense Models Against Membership Inference Attacks.
 
 <p style="text-align:justify">
 <strong>Project Overview:</strong> This project addresses the critical need for robust defense mechanisms in machine learning to protect sensitive training data against membership inference attacks. By assessing the vulnerability of neural network-based models and evaluating existing defenses, we introduce a novel privacy risk score that quantifies the likelihood of individual data samples belonging to a model's training set.
@@ -43,11 +43,11 @@ The project focuses on the following research questions (RQs):
 </ul>
 
 <p style="text-align:justify"><strong>Discussion & Findings:</strong> Here are the major findings and discussion points of this project:</p>
-<ol>
+<ul>
     <li> <p style="text-align:justify">Vulnerability of Models: Neural network models are consistently vulnerable to membership inference attacks, indicating significant privacy risks across various model architectures and defense strategies.</p> </li>
     <li> <p style="text-align:justify">Defense Effectiveness: Traditional defense mechanisms like adversarial regularization and MemGuard provide partial protection but are not foolproof, particularly against sophisticated attacks.</p> </li>
     <li> <p style="text-align:justify">Privacy Risk Score: The developed privacy risk score effectively quantifies individual privacy risks by assessing the likelihood of a data sample being part of the training set, offering a more precise tool than previous methods.</p> </li>
     <li> <p style="text-align:justify">Efficiency of Metric-Based Attacks: Metric-based attacks can be as effective As complex neural network-based attacks in detecting privacy leaks, highlighting the potential for more efficient privacy risk assessments.</p> </li>
     <li> <p style="text-align:justify">Trade-offs and Challenges: The findings discuss the trade-offs between model utility and privacy, with stronger protections often compromising model performance, posing challenges for sensitive applications.</p> </li>
-</ol>
+</ul>
 
