@@ -8,7 +8,7 @@ category: Graduate
 related_publications: true
 ---
 
-<a href="LLM_Personalization.pdf">[Report]</a> <a href='https://github.com/amit-sarker/LLM_Personalization'>[Code]</a>
+<a href="https://amit010.github.io/assets/pdf/LLM_Personalization.pdf">[Report]</a> <a href='https://github.com/amit-sarker/LLM_Personalization'>[Code]</a>
 
 <strong>Project Title:</strong> Improving Retrieval Accuracy Using Clustering to Personalize Large Language Models.
 
@@ -40,8 +40,15 @@ The project focuses on the following research questions (RQs):
     <li> <p style="text-align:justify">Another challenge is conducting experiments that closely mirror real-world conditions. Using realistic datasets, such as those from the LaMP benchmark, the project validates the effectiveness of different retrieval models in practical scenarios.</p> </li>
 </ul>
 
-
-
+<p style="text-align:justify"><strong>Methods:</strong> The project used a comprehensive approach to tackle the challenges of personalizing outputs from Large Language Models (LLMs) through information retrieval strategies. Here are the specific solution methods used:</p>
+<ol>
+    <ul>
+        <li> BM25 Baseline: Used as a baseline to set a standard for performance comparison with more advanced methods. </li>
+        <li> Topic-Model Based Retrieval: This method uses BM25 to first rank the data points and then incorporates topic modeling to streamline and shorten the input by focusing on key topics rather than full texts. </li>
+        <li> Reranking with Contriever: After initial ranking with BM25, this method uses the Contriever model to rerank the results, aiming to improve relevance by refining the selection of user profile data. </li>
+        <li> </li>
+    </ul>
+</ol>
 
 
 
