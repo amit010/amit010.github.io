@@ -8,7 +8,7 @@ category: Graduate
 related_publications: true
 ---
 
-<a href="assets/pdf/LLM_Personalization.pdf">[Report]</a> <a href='https://github.com/amit-sarker/LLM_Personalization'>[Code]</a>
+<a href="LLM_Personalization.pdf">[Report]</a> <a href='https://github.com/amit-sarker/LLM_Personalization'>[Code]</a>
 
 <strong>Project Title:</strong> Improving Retrieval Accuracy Using Clustering to Personalize Large Language Models.
 
@@ -30,6 +30,15 @@ The project focuses on the following research questions (RQs):
     This figure shows our clustering approach for retrieval. In our approach, we first cluster the documents using KMeans. We then sample a data point or document from a cluster. Finally, we rerank the documents using contriever.
 </div>
 
+
+<p style="text-align:justify"><strong>Challenges:</strong> This project addresses a suite of challenges related to enhancing the personalization capabilities of Large Language Models (LLMs) through advanced information retrieval strategies.</p>
+<ul>
+    <li> <p style="text-align:justify">The core challenge is to extract relevant and significant data efficiently from voluminous and diverse user profiles. This is crucial to ensure that the LLM outputs are both contextually relevant and accurate.</p> </li>
+    <li> <p style="text-align:justify">The project explores ways to manage large datasets efficiently. It aims to optimize the input sequences for LLMs, making it feasible to process large volumes of data without compromising the quality of the outputs.</p> </li>
+    <li> <p style="text-align:justify">One of the significant hurdles is enhancing personalization while operating within the bounds of limited computational resources. The project develops retrieval strategies like clustering and reranking that aim to reduce computational demands while maintaining or enhancing performance.</p> </li>
+    <li> <p style="text-align:justify">Achieving a delicate balance between the accuracy of retrieved information and its relevance to the user's context is challenging. Different models are tested to identify methods that can optimize both aspects effectively.</p> </li>
+    <li> <p style="text-align:justify">Another challenge is conducting experiments that closely mirror real-world conditions. Using realistic datasets, such as those from the LaMP benchmark, the project validates the effectiveness of different retrieval models in practical scenarios.</p> </li>
+</ul>
 
 
 
