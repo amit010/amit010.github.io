@@ -2,16 +2,18 @@
 layout: page
 title: LLM Personalization
 description: LLM, Huggingface, Scikit Learn, Python, Probabilistic and Neural Retrievers.
-img: assets/img/clustering-ir.pdf
+img: assets/img/clustering-ir.jpg
 importance: 1
 category: Graduate
 related_publications: true
 ---
 
+<a href="assets/pdf/LLM_Personalization.pdf">[Report]</a> <a href='https://github.com/amit-sarker/LLM_Personalization'>[Code]</a>
+
 <strong>Project Title:</strong> Improving Retrieval Accuracy Using Clustering to Personalize Large Language Models.
 
 <p style="text-align:justify">
-Project Overview: This project focuses on improving the personalization capabilities of Large Language Models (LLMs) by advancing the retrieval of user profile information. By using novel retrieval strategies, including clustering and reranking methods, this project aims to optimize LLM outputs to be more user-specific and contextually relevant.
+<strong>Project Overview:</strong> This project focuses on improving the personalization capabilities of Large Language Models (LLMs) by advancing the retrieval of user profile information. By using novel retrieval strategies, including clustering and reranking methods, this project aims to optimize LLM outputs to be more user-specific and contextually relevant.
 </p>
 The project focuses on the following research questions (RQs):
 <ul>
@@ -27,6 +29,12 @@ The project focuses on the following research questions (RQs):
 <div class="caption">
     This figure shows our clustering approach for retrieval. In our approach, we first cluster the documents using KMeans. We then sample a data point or document from a cluster. Finally, we rerank the documents using contriever.
 </div>
+
+
+
+
+
+
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
