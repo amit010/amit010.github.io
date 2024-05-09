@@ -27,7 +27,9 @@ exploration of the fairness implications within Differential Privacy algorithms.
 Prior to my doctoral studies, I worked as a research assistant at the 
 <a href='https://mmkhansajeeb.com/cailresearchgroup.html'>Cognitive Agents and Interaction Lab (CAIL)</a>, 
 where my work encompassed a diverse range of real-world problem-solving. These included tackling challenges 
-in multi-agent coordination, optimization, as well as planning and scheduling.
+in multi-agent coordination, optimization, as well as planning and scheduling. More specifically, I applied 
+local search and particle swarm optimization (PSO) based algorithms for solving Continuous Distributed Constraint Optimization
+Problems (C-DCOPs) in multi-agent systems.
 </p>
 
 <p style="text-align:justify">
