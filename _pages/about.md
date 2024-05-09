@@ -20,8 +20,7 @@ I am exploring the fields of data privacy and fairness in decision-making from p
 on the design and implementation of visual data exploration platforms tailored for Differentially Private data, alongside an 
 exploration of the fairness implications within Differential Privacy algorithms. I am advised by 
 <a href="https://groups.cs.umass.edu/nmahyar/">Prof. Narges Mahyar</a> and 
-<a href="https://groups.cs.umass.edu/asarv/">Prof. Ali Sarvghad</a> in the 
-<a href="https://groups.cs.umass.edu/hci-vis/">HCI-VIS Lab</a> at UMass.
+<a href="https://groups.cs.umass.edu/asarv/">Prof. Ali Sarvghad</a> in the <a href="https://groups.cs.umass.edu/hci-vis/">HCI-VIS Lab</a> at UMass.
 </p>
 
 <p style="text-align:justify">
