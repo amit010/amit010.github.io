@@ -44,3 +44,19 @@
 "yeoh":
   - firstname: ["William", "W."]
     url: https://wyeoh.github.io/
+
+"mahyar":
+  - firstname: ["Narges", "N."]
+    url: https://groups.cs.umass.edu/nmahyar/
+
+"sarvghad":
+  - firstname: ["Ali", "A."]
+    url: https://groups.cs.umass.edu/asarv/
+
+"panavas":
+  - firstname: ["Liudas", "L."]
+    url: https://lpanavas.github.io/
+
+"dunne":
+  - firstname: ["Cody", "C."]
+    url: https://dunne.dev/
