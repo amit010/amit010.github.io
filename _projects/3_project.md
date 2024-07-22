@@ -2,7 +2,7 @@
 layout: page
 title: Project TrackMe
 description: Android Application, Java, Clustering, Google Maps API, Firebase
-img: assets/img/home.png
+img: assets/img/cover.png
 
 [//]: # (redirect: https://unsplash.com)
 importance: 3
