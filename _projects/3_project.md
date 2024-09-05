@@ -5,7 +5,7 @@ description: Android Application, Java, Clustering, Google Maps API, Firebase
 img: assets/img/cover.png
 
 [//]: # (redirect: https://unsplash.com)
-importance: 3
+importance: 4
 category: Undergrad
 ---
 

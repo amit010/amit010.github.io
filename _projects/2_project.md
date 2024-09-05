@@ -3,7 +3,7 @@ layout: page
 title: Privacy Risk of ML Models
 description: NN, RNN, Adversarial Regularization, MemGuard
 img: assets/img/project2.png
-importance: 2
+importance: 3
 category: Graduate
 giscus_comments: false
 ---
