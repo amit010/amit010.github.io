@@ -42,7 +42,7 @@ The project focuses on the following research questions (RQs):
     <li> <p style="text-align:justify">Comparative Analysis: The results from both NN-based and metric-based attacks are compared to determine which methods reveal more significant privacy leaks. This comparative analysis helps in understanding the strengths and weaknesses of different approaches to protecting privacy.</p> </li>
 </ul>
 
-<p style="text-align:justify"><strong>Discussion & Findings:</strong> Here are the major findings and discussion points of this project:</p>
+
 <ul>
     <li> <p style="text-align:justify">Vulnerability of Models: Neural network models are consistently vulnerable to membership inference attacks, indicating significant privacy risks across various model architectures and defense strategies.</p> </li>
     <li> <p style="text-align:justify">Defense Effectiveness: Traditional defense mechanisms like adversarial regularization and MemGuard provide partial protection but are not foolproof, particularly against sophisticated attacks.</p> </li>

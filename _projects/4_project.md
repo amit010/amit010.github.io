@@ -16,11 +16,15 @@ related_publications: false
 <p style="text-align:justify">
 <strong>Project Overview:</strong> This evaluation explores the In-context learning (ICL) capabilities of pre-trained language models on arithmetic tasks and sentiment analysis using synthetic datasets. The goal is to use different prompting strategies—zero-shot, few-shot, and chain-of-thought—to assess the performance of these models on the given tasks. We conducted two types of arithmetic tasks:
 
-Regular Arithmetic: Involves basic arithmetic operations like addition, subtraction, multiplication, and division (using integer division).
-Jumbled Arithmetic: Involves standard arithmetic operations but with new symbols introduced for each operation:
-'$' represents addition, so a $ b equals a + b.
-'#' represents subtraction, so a # b equals a - b.
-'@' represents the operation (a + b) * (a - b), so a @ b equals this calculation.
+<ul>
+    <li>Regular Arithmetic: Involves basic arithmetic operations like addition, subtraction, multiplication, and division (using integer division).</li>
+    <li>Jumbled Arithmetic: Involves standard arithmetic operations but with new symbols introduced for each operation:</li>
+    <ul>
+        <li>'$' represents addition, so a $ b equals a + b.</li>
+        <li>'#' represents subtraction, so a # b equals a - b.</li>
+        <li>'@' represents the operation (a + b) * (a - b), so a @ b equals this calculation.</li>
+    </ul>
+</ul>
 
 Introducing jumbled arithmetic aims to determine if the model is learning from the prompts or merely recalling from its pre-trained knowledge.
 For sentiment analysis, the task is to classify the sentiment (Positive, Negative, or Neutral) of a given text.
@@ -33,3 +37,20 @@ For sentiment analysis, the task is to classify the sentiment (Positive, Negativ
 <div class="caption">
     This figure shows the examples of demonstrations that are given to LLMs to explore their ICL capabilities.
 </div>
+
+<p style="text-align:justify"><strong>Findings:</strong> Here are the major findings of this ICL analysis:</p>
+
+<ul>
+    <li> <p style="text-align:justify"> Mistral-7b consistently outperformed other models across all tasks, demonstrating robust performance irrespective of the demonstration type.</li>
+    <li> <p style="text-align:justify"> Cerebras-btlm-3b showed limited improvement with increased demonstrations, suggesting potential constraints in its ability to utilize contextual information effectively.</li>
+    <li> <p style="text-align:justify"> In regular arithmetic, models generally improved with more demonstrations, with Mamba-7b and Mamba-2.8b particularly benefiting from true label demonstrations.</li>
+    <li> <p style="text-align:justify"> Jumbled arithmetic revealed a stark contrast in model performance with CoT prompting, where Mistral-7b excelled significantly, indicating its strong capability to leverage additional contextual cues.</li>
+    <li> <p style="text-align:justify"> Sentiment analysis tasks highlighted that all models benefited from demonstrations, especially with true labels. CoT prompting notably enhanced performance, with Cerebras-btlm-3b and Llama2-7b showing considerable gains.</li>
+    <li> <p style="text-align:justify"> Demonstrations with random labels generally improved model performance but to a lesser extent compared to demonstrations with true labels.</li>
+</ul>
+
+
+
+
+
+
