@@ -41,12 +41,12 @@ For sentiment analysis, the task is to classify the sentiment (Positive, Negativ
 <p style="text-align:justify"><strong>Findings:</strong> Here are the major findings of this ICL analysis:</p>
 
 <ul>
-    <li> <p style="text-align:justify"> Mistral-7b consistently outperformed other models across all tasks, demonstrating robust performance irrespective of the demonstration type.</li>
-    <li> <p style="text-align:justify"> Cerebras-btlm-3b showed limited improvement with increased demonstrations, suggesting potential constraints in its ability to utilize contextual information effectively.</li>
-    <li> <p style="text-align:justify"> In regular arithmetic, models generally improved with more demonstrations, with Mamba-7b and Mamba-2.8b particularly benefiting from true label demonstrations.</li>
-    <li> <p style="text-align:justify"> Jumbled arithmetic revealed a stark contrast in model performance with CoT prompting, where Mistral-7b excelled significantly, indicating its strong capability to leverage additional contextual cues.</li>
-    <li> <p style="text-align:justify"> Sentiment analysis tasks highlighted that all models benefited from demonstrations, especially with true labels. CoT prompting notably enhanced performance, with Cerebras-btlm-3b and Llama2-7b showing considerable gains.</li>
-    <li> <p style="text-align:justify"> Demonstrations with random labels generally improved model performance but to a lesser extent compared to demonstrations with true labels.</li>
+    <li> <p style="text-align:justify"> Mistral-7b consistently outperformed other models across all tasks, demonstrating robust performance irrespective of the demonstration type.</p> </li>
+    <li> <p style="text-align:justify"> Cerebras-btlm-3b showed limited improvement with increased demonstrations, suggesting potential constraints in its ability to utilize contextual information effectively.</p> </li>
+    <li> <p style="text-align:justify"> In regular arithmetic, models generally improved with more demonstrations, with Mamba-7b and Mamba-2.8b particularly benefiting from true label demonstrations.</p> </li>
+    <li> <p style="text-align:justify"> Jumbled arithmetic revealed a stark contrast in model performance with CoT prompting, where Mistral-7b excelled significantly, indicating its strong capability to leverage additional contextual cues.</p> </li>
+    <li> <p style="text-align:justify"> Sentiment analysis tasks highlighted that all models benefited from demonstrations, especially with true labels. CoT prompting notably enhanced performance, with Cerebras-btlm-3b and Llama2-7b showing considerable gains.</p> </li>
+    <li> <p style="text-align:justify"> Demonstrations with random labels generally improved model performance but to a lesser extent compared to demonstrations with true labels.</p> </li>
 </ul>
 
 
