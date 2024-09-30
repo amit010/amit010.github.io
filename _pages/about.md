@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: The website is under development.
+subtitle: Actively looking for internships for Summer 2025!
 
 profile:
   align: right
@@ -34,7 +34,7 @@ Problems (C-DCOPs) in multi-agent systems.
 
 <p style="text-align:justify">
 I started my professional career as a Software Engineer (QA) at <a href="https://www.tigerit.com/">TigerIT Bangladesh Limited</a>.
-During this time, I played a crucial role in enhancing system reliability and performance 
+During this time, I worked to enhance system reliability and performance 
 by identifying essential system requirements and integrating cutting-edge technologies. My focus included the development 
 and analysis of methodologies for a contact tracing module aimed at mitigating the spread of COVID-19. I was also involved in 
 designing and executing comprehensive test plans and developing automation scripts to ensure that software functionalities 
@@ -48,7 +48,8 @@ I received my bachelor's degree from the Department of Computer Science and Engi
 
 My current research interests are:
 <ul>
-    <li> Differential Privacy </li>
+    <li> Differential Privacy & Fairness </li>
     <li> Data Visualization </li>
     <li> Natural Language Processing </li>
+    <li> Human-Computer Interaction </li>
 </ul>

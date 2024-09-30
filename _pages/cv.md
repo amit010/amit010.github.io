@@ -4,6 +4,6 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: CV_Amit_Sarker.pdf
+cv_pdf: cv_sarker_amit.pdf
 description:
 ---
